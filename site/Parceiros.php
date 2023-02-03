@@ -1,71 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>iMovi</title>
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-  <!-- Google fonts Lato -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet" />
-  <!-- CSS Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-  <!-- CSS do projeto -->
-  <link rel="stylesheet" href="http://127.0.0.1:5500/css/styles.css" />
-  <!-- JavaScript Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <!-- NAVBAR-->
-  <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-    <div class="container py-3">
-      <a class="navbar-brand primary-color" href="#">
-        <img class="img-fluid" src="http://127.0.0.1:5500/img/imovi-icon.png" alt="iMovi" />
-        <span>iMovi</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
-        aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="bi bi-list"> </i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-items">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active primary-color" aria-current="page"
-              href="http://127.0.0.1:5500/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link primary-color" href="#">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link primary-color" href="#">Imóveis</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link primary-color" href="http://127.0.0.1:5500/site/contato.html">Contato</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link primary-color" href="http://127.0.0.1:5500/site/Parceiros.html">Nossos Parceiros</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<?php
+  include 'head.php'
+?>
   <!-- Parcerios -->
   <div class="container" style="margin-top: 10em; margin-bottom: 5em;">
     <div class="row">
       <div class="col-xs-12 col-lg-3 col-sm-6 col-md-4">
         <div class="card convt text-center">
-          <img class="img-fluid" src="http://127.0.0.1:5500/img/emp1.jpg" alt="Seenit">
+          <img class="img-fluid" src="http://localhost/projetove/img/emp1.jpg" alt="Seenit">
           <div class="card-body">
             <h2 class="card-tile primary-color">Seenit</h2>
             <p class="card-text secondary-color">
@@ -79,13 +20,13 @@
       </div>
       <div class="col-xs-12 col-lg-3 col-sm-6 col-md-4">
         <div class="card convt text-center">
-          <img class="img-fluid" src="http://127.0.0.1:5500/img/emp12.jpg.crdownload" alt="Morest">
+          <img class="img-fluid" src="http://localhost/projetove/img/emp12.jpg" alt="Morest">
           <div class="card-body">
             <h2 class="card-tile primary-color">Mores</h2>
             <p class="card-text secondary-color">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis, fugit commodi
-                reprehenderit est beatae quidem sint eius saepe debitis veritatis repellendus odit dolor autem libero
-                adipisci hic illo sunt!
+              reprehenderit est beatae quidem sint eius saepe debitis veritatis repellendus odit dolor autem libero
+              adipisci hic illo sunt!
             </p>
             <a href="#" class="btn btn-dark">Saber Mais</a>
           </div>
@@ -93,7 +34,7 @@
       </div>
       <div class="col-xs-12 col-lg-3 col-sm-6 col-md-4">
         <div class="card convt text-center">
-          <img class="img-fluid" src="http://127.0.0.1:5500/img/emp2.png" alt="Micorsoft">
+          <img class="img-fluid" src="http://localhost/projetove/img/emp2.png" alt="Micorsoft">
           <div class="card-body">
             <h2 class="card-tile primary-color">
               Micorsoft
@@ -108,13 +49,13 @@
       </div>
       <div class="col-xs-12 col-lg-3 col-sm-6 col-md-4">
         <div class="card convt text-center">
-          <img class="img-fluid" src="http://127.0.0.1:5500/img/emp3.jpg" alt="Mantu">
+          <img class="img-fluid" src="http://localhost/projetove/img/emp3.jpg" alt="Mantu">
           <div class="card-body">
             <h2 class="card-tile primary-color">Mantu</h2>
             <p class="card-text secondary-color">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis, fugit commodi
-                reprehenderit est beatae quidem sint eius saepe debitis veritatis repellendus odit dolor autem libero
-                adipisci hic illo sunt!
+              reprehenderit est beatae quidem sint eius saepe debitis veritatis repellendus odit dolor autem libero
+              adipisci hic illo sunt!
             </p>
             <a href="#" class="btn btn-dark">Saber Mais</a>
           </div>
@@ -122,13 +63,13 @@
       </div>
       <div class="col-xs-12 col-lg-3 col-sm-6 col-md-4">
         <div class="card convt text-center">
-          <img class="img-fluid" src="http://127.0.0.1:5500/img/emp40.png" alt="Coca Cola">
+          <img class="img-fluid" src="http://localhost/projetove/img/emp40.png" alt="Coca Cola">
           <div class="card-body">
             <h2 class="card-tile primary-color">Coca Cola </h2>
             <p class="card-text secondary-color">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita perferendis, fugit commodi
-                reprehenderit est beatae quidem sint eius saepe debitis veritatis repellendus odit dolor autem libero
-                adipisci hic illo sunt!
+              reprehenderit est beatae quidem sint eius saepe debitis veritatis repellendus odit dolor autem libero
+              adipisci hic illo sunt!
             </p>
             <a href="#" class="btn btn-dark">Saber Mais</a>
           </div>
@@ -137,7 +78,7 @@
       <div class="col-xs-12 col-lg-3 col-sm-6 col-md-4">
         <div class="card convt text-center">
           <div>
-            <img class="img-fluid" src="http://127.0.0.1:5500/img/emp50.jpeg" alt="Taylor">
+            <img class="img-fluid" src="http://localhost/projetove/img/emp50.jpeg" alt="Taylor">
             <div class="card-body">
               <h2 class="card-tile primary-color">
                 Taylor
@@ -162,7 +103,7 @@
         <div class="col-12" id="footer-top">
           <div class="row justify-content-between">
             <div class="col-4">
-              <h2>iMovi</h2>
+              <h2>VM REALIZE</h2>
             </div>
             <div class="col-4" id="social-icons">
               <i class="bi bi-facebook"></i>
@@ -192,7 +133,7 @@
             <div class="col-12 col-md-4" id="contact-container">
               <h4>Formas de Contato</h4>
               <p class="secondary-color">(31)9 9999-9999</p>
-              <p class="secondary-color">contato@imovi.com.br</p>
+              <p class="secondary-color">contato@VM REALIZE.com.br</p>
             </div>
             <div class="col-12 col-md-4" id="links-container">
               <div class="row">
@@ -221,7 +162,7 @@
         <div class="col-12" id="footer-bottom">
           <div class="row justify-content-between">
             <div class="col-12 col-md-4">
-              <p class="secondary-color">iMovi &copy;2022</p>
+              <p class="secondary-color">VM REALIZE &copy;2022</p>
             </div>
             <div class="col-12 col-md-4">
               <p class="secondary-color">

@@ -23,13 +23,15 @@
 }
 
 /* NAVBART*/
-
+#navbar {
+  color: white;
+}
 #navbar {
   border-bottom: 1px solid #7a7a7a;
 }
 
 #navbar a:hover {
-  color: #7a7a7a;
+  color: white;
 }
 
 #navbar a.active {
@@ -41,7 +43,9 @@
 }
 
 .navbar-brand img {
-  width: 40px;
+  width: 100px;
+  height: 60px;
+  border-radius: 100px;
 }
 
 .navbar-brand span {
@@ -59,7 +63,10 @@
 #navbar .nav-item {
   margin: 0 1em;
 }
-
+#exempimg {
+  width: 500px;
+  height: 500px;
+}
 /* Slider*/
 
 #slider {
@@ -332,23 +339,25 @@
 }
 
 .convt {
-  height:600px;
+  height: 600px;
   margin-top: 25px;
 }
 
 /*Formulario de contato*/
 .container {
-  
 }
-.contato{
+.contato {
   justify-content: center;
   border-radius: 10px;
   margin-top: 10em;
   max-width: 50%;
   margin-bottom: 5em;
-  background-color: #C0C0C0;
+  background-color: #c0c0c0;
 }
-.forms-contato{
+.forms-contato {
   margin: 60px;
   width: 650px;
+}
+
+.logotip {
 }
